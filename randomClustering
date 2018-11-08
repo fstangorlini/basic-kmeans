@@ -1,3 +1,5 @@
+#Creates a function that does
+#Clustering through kmeans over vector of random 15x15 values between 0-1
 clusterRandomValues <- function(randObsQuantity,clusters)
 {
 df <- data.frame(x=runif(randObsQuantity),y=runif(randObsQuantity))
